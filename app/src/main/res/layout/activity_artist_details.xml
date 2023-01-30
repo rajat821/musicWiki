@@ -130,10 +130,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginVertical="10dp"
-                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:textSize="18sp"
-                android:text="Top Artists"/>
+                android:text="Top Tracks"/>
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerTrack"
@@ -155,10 +154,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginVertical="10dp"
-                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:textSize="18sp"
-                android:text="Top Album"/>
+                android:text="Top Albums"/>
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerAlbum"
             android:layout_width="match_parent"
